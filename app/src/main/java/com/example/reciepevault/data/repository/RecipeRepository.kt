@@ -22,7 +22,7 @@ class RecipeRepository @Inject constructor(
     private val apiService: RecipeApiServices
 )  {
     companion object {
-        private const val API_KEY = "YOUR_SPOONACULAR_API_KEY"
+        private const val API_KEY = "146951906a9140d798e0e880180c03a9"
     }
 
     suspend fun searchRecipes(
